@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MainActivity</string>
+    <string name="read_permission_denied">LoadShpActivity</string>
+    <string name="action_settings">Settings</string>
+</resources>
