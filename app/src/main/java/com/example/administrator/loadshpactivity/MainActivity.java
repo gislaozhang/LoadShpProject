@@ -57,9 +57,8 @@ public class MainActivity extends AppCompatActivity {
         mMapView.addLayer(t_cva);
 
 
-        //  Toast.makeText(this,mMapView.getSpatialReference().getID(),Toast.LENGTH_LONG).show();
 
-        String shpPath=getSDPath()+ "/test.shp";
+        String shpPath=getSDPath()+ "/download/test.shp";
         //String shpPath="/mnt/sdcard/download/bou2_4p.shp";
         Toast.makeText(this,shpPath,Toast.LENGTH_LONG).show();
         Symbol symbol=new SimpleFillSymbol(Color.BLUE);
